@@ -9,7 +9,6 @@
 #include <memory>
 #include <vector>
 #include "ast.h"
-#include "environment.h"
 
 #define INTEGER_OBJ "INTEGER"
 #define BOOLEAN_OBJ "BOOLEAN"
@@ -24,10 +23,14 @@ class Object {
 public:
     virtual ObjectType Type() const = 0;
     virtual std::string Inspect() const = 0;
+    Object() = default;
+    ~Object() = default;
 };
-class Integer : Object {
+class Integer : public Object {
 public:
     int64_t value;
+    Integer(int64_t val);
+    ~Integer();
     ObjectType Type() const override {
         return INTEGER_OBJ;
     }
@@ -36,9 +39,11 @@ public:
     }
 };
 
-class Boolean_obj : Object{
+class Boolean_obj : public Object{
 public:
     bool value;
+    Boolean_obj(bool value);
+    ~Boolean_obj();
     ObjectType Type() const override {
         return BOOLEAN_OBJ;
     }
@@ -47,7 +52,10 @@ public:
     }
 };
 
-class Null : Object {
+class Null : public Object {
+public:
+    Null() = default ;
+    ~Null() = default ;
     ObjectType Type() const override {
         return NULL_OBJ;
     }
@@ -59,6 +67,8 @@ class Null : Object {
 class ReturnValue : public Object {
 public:
     std::unique_ptr<Object> value;
+    ReturnValue(std::unique_ptr<Object> parm);
+    ~ReturnValue();
     ObjectType Type() const override {
         return RETURN_VALUE_OBJ;
     }
@@ -69,6 +79,8 @@ public:
 
 class Error : Object {
 public:
+    explicit Error(std::string msg);
+    ~Error();
     std::string message;
     ObjectType Type() const override {
         return ERROR_OBJ;
@@ -78,11 +90,26 @@ public:
     }
 };
 
-class Function : Object {
+class Environment {
+public:
+    std::map<std::string,std::unique_ptr<Object>> store;
+    std::unique_ptr<Environment> outer;
+    explicit Environment(std::unique_ptr<Environment> new_env);
+    ~Environment();
+    // get获取
+    std::pair<std::unique_ptr<Object>,bool> Get(std::string name);
+    // set设置
+    void Set(std::string name, std::unique_ptr<Object> val);
+};
+
+
+class Function : public Object {
 public:
     std::vector<std::unique_ptr<Identifier>> parameters;
     std::unique_ptr<BlockStatement> body;
     std::unique_ptr<Environment> env;
+    Function();
+    ~Function();
     ObjectType Type() const override {
         return FUNCTION_OBJ;
     }

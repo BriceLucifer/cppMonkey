@@ -12,11 +12,10 @@ add_executable(cppMonkey main.cpp
         repl.cpp
         ast.h
         object.h
-        environment.cpp
-        environment.h
         parser.h
         parser.cpp
         ast.cpp
         evaluator.h
-        evaluator.cpp)
+        evaluator.cpp
+        object.cpp)
 

@@ -6,7 +6,7 @@
 5. object &#10004;
 6. environment &#10004;
 ## parser
-```shell
+```interpreter in c++
 $ Welcome to the simple Interpreter in C++.
 $ Enter expressions or commands.
 >> let x = 1 * 2 * 3 * 4 * 5
