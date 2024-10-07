@@ -113,6 +113,9 @@
 		<Unit filename="C:/Users/23766/Desktop/cppMonkey/main.cpp">
 			<Option target="cppMonkey"/>
 		</Unit>
+		<Unit filename="C:/Users/23766/Desktop/cppMonkey/object.cpp">
+			<Option target="cppMonkey"/>
+		</Unit>
 		<Unit filename="C:/Users/23766/Desktop/cppMonkey/object.h">
 			<Option target="cppMonkey"/>
 		</Unit>

@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/23766/Desktop/cppMonkey/evaluator.cpp" "CMakeFiles/cppMonkey.dir/evaluator.cpp.obj" "gcc" "CMakeFiles/cppMonkey.dir/evaluator.cpp.obj.d"
   "C:/Users/23766/Desktop/cppMonkey/lexer.cpp" "CMakeFiles/cppMonkey.dir/lexer.cpp.obj" "gcc" "CMakeFiles/cppMonkey.dir/lexer.cpp.obj.d"
   "C:/Users/23766/Desktop/cppMonkey/main.cpp" "CMakeFiles/cppMonkey.dir/main.cpp.obj" "gcc" "CMakeFiles/cppMonkey.dir/main.cpp.obj.d"
+  "C:/Users/23766/Desktop/cppMonkey/object.cpp" "CMakeFiles/cppMonkey.dir/object.cpp.obj" "gcc" "CMakeFiles/cppMonkey.dir/object.cpp.obj.d"
   "C:/Users/23766/Desktop/cppMonkey/parser.cpp" "CMakeFiles/cppMonkey.dir/parser.cpp.obj" "gcc" "CMakeFiles/cppMonkey.dir/parser.cpp.obj.d"
   "C:/Users/23766/Desktop/cppMonkey/repl.cpp" "CMakeFiles/cppMonkey.dir/repl.cpp.obj" "gcc" "CMakeFiles/cppMonkey.dir/repl.cpp.obj.d"
   "C:/Users/23766/Desktop/cppMonkey/token.cpp" "CMakeFiles/cppMonkey.dir/token.cpp.obj" "gcc" "CMakeFiles/cppMonkey.dir/token.cpp.obj.d"
