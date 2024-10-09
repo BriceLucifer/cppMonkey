@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/cppMonkey.dir/ast.cpp.obj"
   "CMakeFiles/cppMonkey.dir/ast.cpp.obj.d"
-  "CMakeFiles/cppMonkey.dir/environment.cpp.obj"
-  "CMakeFiles/cppMonkey.dir/environment.cpp.obj.d"
   "CMakeFiles/cppMonkey.dir/evaluator.cpp.obj"
   "CMakeFiles/cppMonkey.dir/evaluator.cpp.obj.d"
   "CMakeFiles/cppMonkey.dir/lexer.cpp.obj"

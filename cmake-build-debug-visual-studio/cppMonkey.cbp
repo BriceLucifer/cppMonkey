@@ -92,12 +92,6 @@
 		<Unit filename="C:/Users/23766/Desktop/cppMonkey/ast.h">
 			<Option target="cppMonkey"/>
 		</Unit>
-		<Unit filename="C:/Users/23766/Desktop/cppMonkey/environment.cpp">
-			<Option target="cppMonkey"/>
-		</Unit>
-		<Unit filename="C:/Users/23766/Desktop/cppMonkey/environment.h">
-			<Option target="cppMonkey"/>
-		</Unit>
 		<Unit filename="C:/Users/23766/Desktop/cppMonkey/evaluator.cpp">
 			<Option target="cppMonkey"/>
 		</Unit>

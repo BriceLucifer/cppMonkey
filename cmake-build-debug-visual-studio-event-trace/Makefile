@@ -142,30 +142,6 @@ ast.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppMonkey.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\cppMonkey.dir\ast.cpp.s
 .PHONY : ast.cpp.s
 
-environment.obj: environment.cpp.obj
-.PHONY : environment.obj
-
-# target to build an object file
-environment.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppMonkey.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\cppMonkey.dir\environment.cpp.obj
-.PHONY : environment.cpp.obj
-
-environment.i: environment.cpp.i
-.PHONY : environment.i
-
-# target to preprocess a source file
-environment.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppMonkey.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\cppMonkey.dir\environment.cpp.i
-.PHONY : environment.cpp.i
-
-environment.s: environment.cpp.s
-.PHONY : environment.s
-
-# target to generate assembly for a file
-environment.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppMonkey.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\cppMonkey.dir\environment.cpp.s
-.PHONY : environment.cpp.s
-
 evaluator.obj: evaluator.cpp.obj
 .PHONY : evaluator.obj
 
@@ -346,9 +322,6 @@ help:
 	@echo ... ast.obj
 	@echo ... ast.i
 	@echo ... ast.s
-	@echo ... environment.obj
-	@echo ... environment.i
-	@echo ... environment.s
 	@echo ... evaluator.obj
 	@echo ... evaluator.i
 	@echo ... evaluator.s

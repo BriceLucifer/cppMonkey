@@ -9,7 +9,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/23766/Desktop/cppMonkey/ast.cpp" "CMakeFiles/cppMonkey.dir/ast.cpp.obj" "gcc" "CMakeFiles/cppMonkey.dir/ast.cpp.obj.d"
-  "C:/Users/23766/Desktop/cppMonkey/environment.cpp" "CMakeFiles/cppMonkey.dir/environment.cpp.obj" "gcc" "CMakeFiles/cppMonkey.dir/environment.cpp.obj.d"
   "C:/Users/23766/Desktop/cppMonkey/evaluator.cpp" "CMakeFiles/cppMonkey.dir/evaluator.cpp.obj" "gcc" "CMakeFiles/cppMonkey.dir/evaluator.cpp.obj.d"
   "C:/Users/23766/Desktop/cppMonkey/lexer.cpp" "CMakeFiles/cppMonkey.dir/lexer.cpp.obj" "gcc" "CMakeFiles/cppMonkey.dir/lexer.cpp.obj.d"
   "C:/Users/23766/Desktop/cppMonkey/main.cpp" "CMakeFiles/cppMonkey.dir/main.cpp.obj" "gcc" "CMakeFiles/cppMonkey.dir/main.cpp.obj.d"

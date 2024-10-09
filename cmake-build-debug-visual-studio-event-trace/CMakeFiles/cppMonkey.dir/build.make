@@ -114,24 +114,10 @@ CMakeFiles\cppMonkey.dir\repl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cppMonkey.dir/repl.cpp.s"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_ASSEMBLY_SOURCE
 
-CMakeFiles\cppMonkey.dir\environment.cpp.obj: CMakeFiles\cppMonkey.dir\flags.make
-CMakeFiles\cppMonkey.dir\environment.cpp.obj: C:\Users\23766\Desktop\cppMonkey\environment.cpp
-CMakeFiles\cppMonkey.dir\environment.cpp.obj: CMakeFiles\cppMonkey.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\23766\Desktop\cppMonkey\cmake-build-debug-visual-studio-event-trace\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cppMonkey.dir/environment.cpp.obj"
-	C:\PROGRA~1\LLVM\bin\CLANG_~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles\cppMonkey.dir\environment.cpp.obj -MF CMakeFiles\cppMonkey.dir\environment.cpp.obj.d -o CMakeFiles\cppMonkey.dir\environment.cpp.obj -c C:\Users\23766\Desktop\cppMonkey\environment.cpp
-
-CMakeFiles\cppMonkey.dir\environment.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cppMonkey.dir/environment.cpp.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_PREPROCESSED_SOURCE
-
-CMakeFiles\cppMonkey.dir\environment.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cppMonkey.dir/environment.cpp.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_ASSEMBLY_SOURCE
-
 CMakeFiles\cppMonkey.dir\parser.cpp.obj: CMakeFiles\cppMonkey.dir\flags.make
 CMakeFiles\cppMonkey.dir\parser.cpp.obj: C:\Users\23766\Desktop\cppMonkey\parser.cpp
 CMakeFiles\cppMonkey.dir\parser.cpp.obj: CMakeFiles\cppMonkey.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\23766\Desktop\cppMonkey\cmake-build-debug-visual-studio-event-trace\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/cppMonkey.dir/parser.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\23766\Desktop\cppMonkey\cmake-build-debug-visual-studio-event-trace\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cppMonkey.dir/parser.cpp.obj"
 	C:\PROGRA~1\LLVM\bin\CLANG_~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles\cppMonkey.dir\parser.cpp.obj -MF CMakeFiles\cppMonkey.dir\parser.cpp.obj.d -o CMakeFiles\cppMonkey.dir\parser.cpp.obj -c C:\Users\23766\Desktop\cppMonkey\parser.cpp
 
 CMakeFiles\cppMonkey.dir\parser.cpp.i: cmake_force
@@ -145,7 +131,7 @@ CMakeFiles\cppMonkey.dir\parser.cpp.s: cmake_force
 CMakeFiles\cppMonkey.dir\ast.cpp.obj: CMakeFiles\cppMonkey.dir\flags.make
 CMakeFiles\cppMonkey.dir\ast.cpp.obj: C:\Users\23766\Desktop\cppMonkey\ast.cpp
 CMakeFiles\cppMonkey.dir\ast.cpp.obj: CMakeFiles\cppMonkey.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\23766\Desktop\cppMonkey\cmake-build-debug-visual-studio-event-trace\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/cppMonkey.dir/ast.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\23766\Desktop\cppMonkey\cmake-build-debug-visual-studio-event-trace\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/cppMonkey.dir/ast.cpp.obj"
 	C:\PROGRA~1\LLVM\bin\CLANG_~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles\cppMonkey.dir\ast.cpp.obj -MF CMakeFiles\cppMonkey.dir\ast.cpp.obj.d -o CMakeFiles\cppMonkey.dir\ast.cpp.obj -c C:\Users\23766\Desktop\cppMonkey\ast.cpp
 
 CMakeFiles\cppMonkey.dir\ast.cpp.i: cmake_force
@@ -159,7 +145,7 @@ CMakeFiles\cppMonkey.dir\ast.cpp.s: cmake_force
 CMakeFiles\cppMonkey.dir\evaluator.cpp.obj: CMakeFiles\cppMonkey.dir\flags.make
 CMakeFiles\cppMonkey.dir\evaluator.cpp.obj: C:\Users\23766\Desktop\cppMonkey\evaluator.cpp
 CMakeFiles\cppMonkey.dir\evaluator.cpp.obj: CMakeFiles\cppMonkey.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\23766\Desktop\cppMonkey\cmake-build-debug-visual-studio-event-trace\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/cppMonkey.dir/evaluator.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\23766\Desktop\cppMonkey\cmake-build-debug-visual-studio-event-trace\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/cppMonkey.dir/evaluator.cpp.obj"
 	C:\PROGRA~1\LLVM\bin\CLANG_~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles\cppMonkey.dir\evaluator.cpp.obj -MF CMakeFiles\cppMonkey.dir\evaluator.cpp.obj.d -o CMakeFiles\cppMonkey.dir\evaluator.cpp.obj -c C:\Users\23766\Desktop\cppMonkey\evaluator.cpp
 
 CMakeFiles\cppMonkey.dir\evaluator.cpp.i: cmake_force
@@ -173,7 +159,7 @@ CMakeFiles\cppMonkey.dir\evaluator.cpp.s: cmake_force
 CMakeFiles\cppMonkey.dir\object.cpp.obj: CMakeFiles\cppMonkey.dir\flags.make
 CMakeFiles\cppMonkey.dir\object.cpp.obj: C:\Users\23766\Desktop\cppMonkey\object.cpp
 CMakeFiles\cppMonkey.dir\object.cpp.obj: CMakeFiles\cppMonkey.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\23766\Desktop\cppMonkey\cmake-build-debug-visual-studio-event-trace\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/cppMonkey.dir/object.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\23766\Desktop\cppMonkey\cmake-build-debug-visual-studio-event-trace\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/cppMonkey.dir/object.cpp.obj"
 	C:\PROGRA~1\LLVM\bin\CLANG_~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles\cppMonkey.dir\object.cpp.obj -MF CMakeFiles\cppMonkey.dir\object.cpp.obj.d -o CMakeFiles\cppMonkey.dir\object.cpp.obj -c C:\Users\23766\Desktop\cppMonkey\object.cpp
 
 CMakeFiles\cppMonkey.dir\object.cpp.i: cmake_force
@@ -190,7 +176,6 @@ cppMonkey_OBJECTS = \
 "CMakeFiles\cppMonkey.dir\token.cpp.obj" \
 "CMakeFiles\cppMonkey.dir\lexer.cpp.obj" \
 "CMakeFiles\cppMonkey.dir\repl.cpp.obj" \
-"CMakeFiles\cppMonkey.dir\environment.cpp.obj" \
 "CMakeFiles\cppMonkey.dir\parser.cpp.obj" \
 "CMakeFiles\cppMonkey.dir\ast.cpp.obj" \
 "CMakeFiles\cppMonkey.dir\evaluator.cpp.obj" \
@@ -203,7 +188,6 @@ cppMonkey.exe: CMakeFiles\cppMonkey.dir\main.cpp.obj
 cppMonkey.exe: CMakeFiles\cppMonkey.dir\token.cpp.obj
 cppMonkey.exe: CMakeFiles\cppMonkey.dir\lexer.cpp.obj
 cppMonkey.exe: CMakeFiles\cppMonkey.dir\repl.cpp.obj
-cppMonkey.exe: CMakeFiles\cppMonkey.dir\environment.cpp.obj
 cppMonkey.exe: CMakeFiles\cppMonkey.dir\parser.cpp.obj
 cppMonkey.exe: CMakeFiles\cppMonkey.dir\ast.cpp.obj
 cppMonkey.exe: CMakeFiles\cppMonkey.dir\evaluator.cpp.obj
@@ -211,7 +195,7 @@ cppMonkey.exe: CMakeFiles\cppMonkey.dir\object.cpp.obj
 cppMonkey.exe: CMakeFiles\cppMonkey.dir\build.make
 cppMonkey.exe: CMakeFiles\cppMonkey.dir\linkLibs.rsp
 cppMonkey.exe: CMakeFiles\cppMonkey.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\23766\Desktop\cppMonkey\cmake-build-debug-visual-studio-event-trace\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable cppMonkey.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\23766\Desktop\cppMonkey\cmake-build-debug-visual-studio-event-trace\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable cppMonkey.exe"
 	C:\PROGRA~1\LLVM\bin\CLANG_~1.EXE -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console @CMakeFiles\cppMonkey.dir\objects1.rsp -o cppMonkey.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cppMonkey.lib -Xlinker /pdb:C:\Users\23766\Desktop\cppMonkey\cmake-build-debug-visual-studio-event-trace\cppMonkey.pdb -Xlinker /version:0.0  @CMakeFiles\cppMonkey.dir\linkLibs.rsp 
 
 # Rule to build all files generated by this target.
