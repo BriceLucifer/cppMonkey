@@ -26,6 +26,7 @@ public:
     Object() = default;
     ~Object() = default;
 };
+
 class Integer : public Object {
 public:
     int64_t value;
@@ -77,7 +78,7 @@ public:
     }
 };
 
-class Error : Object {
+class Error : public Object {
 public:
     explicit Error(std::string msg);
     ~Error();

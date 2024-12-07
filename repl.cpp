@@ -28,7 +28,7 @@ void Repl::start() {
                 // std::cout << "Token: " << tokenTypeToString(tok.type) << " Literal: " << tok.literal << std::endl;
             //}
         // } while (tok.type != TokenType::EOF_);
-        if ( !parser.Errors().empty()){
+        if (!parser.Errors().empty()){
             std::cout << printParseErrors(parser.Errors()) ;
             continue;
         }

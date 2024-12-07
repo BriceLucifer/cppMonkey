@@ -38,7 +38,7 @@ public:
 class Program : Node{
 public:
     std::vector<std::unique_ptr<Statement>> Statements;
-    Program();
+    Program() ;
     ~Program();
     std::string TokenLiteral() const override {
         if(!Statements.empty()){

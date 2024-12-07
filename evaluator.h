@@ -7,6 +7,7 @@
 
 #include "ast.h"
 #include "object.h"
+#include <typeinfo>
 
 const std::unique_ptr<Null> Null_t = std::make_unique<Null>();
 const std::unique_ptr<Boolean_obj> True = std::make_unique<Boolean_obj>(true);
@@ -18,6 +19,7 @@ std::unique_ptr<Object> evalBlockStatements(std::unique_ptr<BlockStatement> bloc
 std::unique_ptr<Boolean_obj> nativeBoolToBooleanObject(bool input);
 std::unique_ptr<Object> evalPrefixExpression(std::string Operator, std::unique_ptr<Object> right);
 std::unique_ptr<Object> evalBangOperatorExpression(std::unique_ptr<Object> right);
+std::unique_ptr<Object> evalMinusPrefixOperatorExpression(std::unique_ptr<Object> right);
 std::unique_ptr<Object> evalInfixExpression(std::string Operator, std::unique_ptr<Object> left,std::unique_ptr<Object> right);
 std::unique_ptr<Object> evalIntegerInfixExpression(std::string Operator, std::unique_ptr<Object> left,std::unique_ptr<Object> right);
 std::unique_ptr<Object> evalIfExpression(std::unique_ptr<IfExpression> ie, std::unique_ptr<Environment>);

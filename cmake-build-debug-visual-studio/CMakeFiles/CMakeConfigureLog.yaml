@@ -101,8 +101,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/23766/Desktop/cppMonkey/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-5f4yzw"
-      binary: "C:/Users/23766/Desktop/cppMonkey/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-5f4yzw"
+      source: "C:/Users/23766/Desktop/cppMonkey/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-eg3b77"
+      binary: "C:/Users/23766/Desktop/cppMonkey/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-eg3b77"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-O0"
@@ -111,14 +111,14 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/23766/Desktop/cppMonkey/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-5f4yzw'
+        Change Dir: 'C:/Users/23766/Desktop/cppMonkey/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-eg3b77'
         
-        Run Build Command(s): D:/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_21fac\\fast
-        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_21fac.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_21fac.dir\\build
-        Building C object CMakeFiles/cmTC_21fac.dir/CMakeCCompilerABI.c.obj
-        	C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles\\cmTC_21fac.dir\\CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_21fac.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles\\cmTC_21fac.dir\\CMakeCCompilerABI.c.obj -c D:\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c
-        Linking C executable cmTC_21fac.exe
-        	C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console @CMakeFiles\\cmTC_21fac.dir\\objects1.rsp -o cmTC_21fac.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_21fac.lib -Xlinker /pdb:C:\\Users\\23766\\Desktop\\cppMonkey\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-5f4yzw\\cmTC_21fac.pdb -Xlinker /version:0.0
+        Run Build Command(s): D:/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_84d76\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_84d76.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_84d76.dir\\build
+        Building C object CMakeFiles/cmTC_84d76.dir/CMakeCCompilerABI.c.obj
+        	C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles\\cmTC_84d76.dir\\CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_84d76.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles\\cmTC_84d76.dir\\CMakeCCompilerABI.c.obj -c D:\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c
+        Linking C executable cmTC_84d76.exe
+        	C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console @CMakeFiles\\cmTC_84d76.dir\\objects1.rsp -o cmTC_84d76.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_84d76.lib -Xlinker /pdb:C:\\Users\\23766\\Desktop\\cppMonkey\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-eg3b77\\cmTC_84d76.pdb -Xlinker /version:0.0
         
       exitCode: 0
   -
@@ -130,8 +130,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/23766/Desktop/cppMonkey/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-vvtquo"
-      binary: "C:/Users/23766/Desktop/cppMonkey/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-vvtquo"
+      source: "C:/Users/23766/Desktop/cppMonkey/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-cktg29"
+      binary: "C:/Users/23766/Desktop/cppMonkey/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-cktg29"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-O0"
@@ -140,14 +140,14 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/23766/Desktop/cppMonkey/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-vvtquo'
+        Change Dir: 'C:/Users/23766/Desktop/cppMonkey/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-cktg29'
         
-        Run Build Command(s): D:/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_04d49\\fast
-        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_04d49.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_04d49.dir\\build
-        Building CXX object CMakeFiles/cmTC_04d49.dir/CMakeCXXCompilerABI.cpp.obj
-        	C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles\\cmTC_04d49.dir\\CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_04d49.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles\\cmTC_04d49.dir\\CMakeCXXCompilerABI.cpp.obj -c D:\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp
-        Linking CXX executable cmTC_04d49.exe
-        	C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console @CMakeFiles\\cmTC_04d49.dir\\objects1.rsp -o cmTC_04d49.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_04d49.lib -Xlinker /pdb:C:\\Users\\23766\\Desktop\\cppMonkey\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-vvtquo\\cmTC_04d49.pdb -Xlinker /version:0.0
+        Run Build Command(s): D:/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_dce68\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_dce68.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_dce68.dir\\build
+        Building CXX object CMakeFiles/cmTC_dce68.dir/CMakeCXXCompilerABI.cpp.obj
+        	C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles\\cmTC_dce68.dir\\CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_dce68.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles\\cmTC_dce68.dir\\CMakeCXXCompilerABI.cpp.obj -c D:\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp
+        Linking CXX executable cmTC_dce68.exe
+        	C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console @CMakeFiles\\cmTC_dce68.dir\\objects1.rsp -o cmTC_dce68.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_dce68.lib -Xlinker /pdb:C:\\Users\\23766\\Desktop\\cppMonkey\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-cktg29\\cmTC_dce68.pdb -Xlinker /version:0.0
         
       exitCode: 0
   -
@@ -162,8 +162,8 @@ events:
     checks:
       - "Detecting CXX compile features"
     directories:
-      source: "C:/Users/23766/Desktop/cppMonkey/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-tg80iw"
-      binary: "C:/Users/23766/Desktop/cppMonkey/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-tg80iw"
+      source: "C:/Users/23766/Desktop/cppMonkey/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-4h03m2"
+      binary: "C:/Users/23766/Desktop/cppMonkey/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-4h03m2"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-O0"
@@ -172,14 +172,14 @@ events:
       variable: "CMAKE_CXX_FEATURE_TEST"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/23766/Desktop/cppMonkey/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-tg80iw'
+        Change Dir: 'C:/Users/23766/Desktop/cppMonkey/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-4h03m2'
         
-        Run Build Command(s): D:/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_030a8\\fast
-        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_030a8.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_030a8.dir\\build
-        Building CXX object CMakeFiles/cmTC_030a8.dir/feature_tests.cxx.obj
-        	C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview   -std=c++14 -MD -MT CMakeFiles\\cmTC_030a8.dir\\feature_tests.cxx.obj -MF CMakeFiles\\cmTC_030a8.dir\\feature_tests.cxx.obj.d -o CMakeFiles\\cmTC_030a8.dir\\feature_tests.cxx.obj -c C:\\Users\\23766\\Desktop\\cppMonkey\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-tg80iw\\feature_tests.cxx
-        Linking CXX executable cmTC_030a8.exe
-        	C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console @CMakeFiles\\cmTC_030a8.dir\\objects1.rsp -o cmTC_030a8.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_030a8.lib -Xlinker /pdb:C:\\Users\\23766\\Desktop\\cppMonkey\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-tg80iw\\cmTC_030a8.pdb -Xlinker /version:0.0  @CMakeFiles\\cmTC_030a8.dir\\linkLibs.rsp
+        Run Build Command(s): D:/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_2dcdf\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_2dcdf.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_2dcdf.dir\\build
+        Building CXX object CMakeFiles/cmTC_2dcdf.dir/feature_tests.cxx.obj
+        	C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview   -std=c++14 -MD -MT CMakeFiles\\cmTC_2dcdf.dir\\feature_tests.cxx.obj -MF CMakeFiles\\cmTC_2dcdf.dir\\feature_tests.cxx.obj.d -o CMakeFiles\\cmTC_2dcdf.dir\\feature_tests.cxx.obj -c C:\\Users\\23766\\Desktop\\cppMonkey\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-4h03m2\\feature_tests.cxx
+        Linking CXX executable cmTC_2dcdf.exe
+        	C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console @CMakeFiles\\cmTC_2dcdf.dir\\objects1.rsp -o cmTC_2dcdf.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_2dcdf.lib -Xlinker /pdb:C:\\Users\\23766\\Desktop\\cppMonkey\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-4h03m2\\cmTC_2dcdf.pdb -Xlinker /version:0.0  @CMakeFiles\\cmTC_2dcdf.dir\\linkLibs.rsp
         
       exitCode: 0
   -
@@ -194,8 +194,8 @@ events:
     checks:
       - "Detecting CXX compile features"
     directories:
-      source: "C:/Users/23766/Desktop/cppMonkey/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-baz5ax"
-      binary: "C:/Users/23766/Desktop/cppMonkey/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-baz5ax"
+      source: "C:/Users/23766/Desktop/cppMonkey/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-4msbcy"
+      binary: "C:/Users/23766/Desktop/cppMonkey/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-4msbcy"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-O0"
@@ -204,14 +204,14 @@ events:
       variable: "CMAKE_CXX_FEATURE_TEST"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/23766/Desktop/cppMonkey/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-baz5ax'
+        Change Dir: 'C:/Users/23766/Desktop/cppMonkey/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-4msbcy'
         
-        Run Build Command(s): D:/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_b4e7a\\fast
-        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_b4e7a.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_b4e7a.dir\\build
-        Building CXX object CMakeFiles/cmTC_b4e7a.dir/feature_tests.cxx.obj
-        	C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview   -std=c++14 -MD -MT CMakeFiles\\cmTC_b4e7a.dir\\feature_tests.cxx.obj -MF CMakeFiles\\cmTC_b4e7a.dir\\feature_tests.cxx.obj.d -o CMakeFiles\\cmTC_b4e7a.dir\\feature_tests.cxx.obj -c C:\\Users\\23766\\Desktop\\cppMonkey\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-baz5ax\\feature_tests.cxx
-        Linking CXX executable cmTC_b4e7a.exe
-        	C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console @CMakeFiles\\cmTC_b4e7a.dir\\objects1.rsp -o cmTC_b4e7a.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_b4e7a.lib -Xlinker /pdb:C:\\Users\\23766\\Desktop\\cppMonkey\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-baz5ax\\cmTC_b4e7a.pdb -Xlinker /version:0.0  @CMakeFiles\\cmTC_b4e7a.dir\\linkLibs.rsp
+        Run Build Command(s): D:/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_72ec8\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_72ec8.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_72ec8.dir\\build
+        Building CXX object CMakeFiles/cmTC_72ec8.dir/feature_tests.cxx.obj
+        	C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview   -std=c++14 -MD -MT CMakeFiles\\cmTC_72ec8.dir\\feature_tests.cxx.obj -MF CMakeFiles\\cmTC_72ec8.dir\\feature_tests.cxx.obj.d -o CMakeFiles\\cmTC_72ec8.dir\\feature_tests.cxx.obj -c C:\\Users\\23766\\Desktop\\cppMonkey\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-4msbcy\\feature_tests.cxx
+        Linking CXX executable cmTC_72ec8.exe
+        	C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console @CMakeFiles\\cmTC_72ec8.dir\\objects1.rsp -o cmTC_72ec8.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_72ec8.lib -Xlinker /pdb:C:\\Users\\23766\\Desktop\\cppMonkey\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-4msbcy\\cmTC_72ec8.pdb -Xlinker /version:0.0  @CMakeFiles\\cmTC_72ec8.dir\\linkLibs.rsp
         
       exitCode: 0
 ...

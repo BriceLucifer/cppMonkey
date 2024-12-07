@@ -1,6 +1,0 @@
-# ninja log v5
-4	38	7498481580294363	CMakeFiles/cppMonkey.dir/main.cpp.obj	85961a34c9ba10a9
-1	353	7498482873397051	CMakeFiles/cppMonkey.dir/lexer.cpp.obj	be78ac36e55e212d
-1	489	7498487199247364	CMakeFiles/cppMonkey.dir/repl.cpp.obj	9a164a713f516ac4
-1	392	7498484452979218	CMakeFiles/cppMonkey.dir/token.cpp.obj	33bbbedc604c8aab
-490	585	7498487199992966	cppMonkey.exe	f22fd760da8216e7

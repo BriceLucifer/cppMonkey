@@ -11,7 +11,7 @@
 class Repl {
 public:
     Repl();
-    void start();
+    static void start();
 };
 
 std::string printParseErrors(std::vector<std::string> errors);
