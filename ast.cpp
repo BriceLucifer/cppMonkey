@@ -37,8 +37,7 @@ BlockStatement::~BlockStatement() = default ;
 IfExpression::IfExpression(Token tok) : token(tok),condition(nullptr),alternative(nullptr),consequence(nullptr){}
 IfExpression::~IfExpression() = default ;
 
-FunctionLiteral::FunctionLiteral(Token tok) :
-token(tok), parameters(std::vector<std::unique_ptr<Identifier>>()),body(nullptr){}
+FunctionLiteral::FunctionLiteral(Token tok) : token(tok), parameters(std::vector<std::unique_ptr<Identifier>>()),body(nullptr){}
 FunctionLiteral::~FunctionLiteral() = default ;
 
 CallExpression::CallExpression(Token tok,std::unique_ptr<Expression> func): token(tok), function(std::move(func)), arguments(std::vector<std::unique_ptr<Expression>>()){}

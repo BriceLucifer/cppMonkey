@@ -21,9 +21,29 @@ std::unique_ptr<Object> Eval(std::unique_ptr<Node> node, std::unique_ptr<Environ
         if (isError(std::move(right))) {
             return right;
         }
-        return evalPrefixExpression(std::move(dynamic_cast<PrefixExpression*>(node.release())->Operator), std::move(right))
+        return evalPrefixExpression(std::move(dynamic_cast<PrefixExpression*>(node.release())->Operator), std::move(right));
     } else if (typeid(InfixExpression) == item_type ) {
+        auto left = Eval(std::move(dynamic_cast<InfixExpression*>(node.release())->left), std::move(env));
+        if (isError(std::move(left))) {
+            return left;
+        }
 
+        auto right = Eval(std::move(dynamic_cast<PrefixExpression*>(node.release())->Right),std::move(env));
+        if (isError(std::move(right))) {
+            return right;
+        }
+
+        return evalInfixExpression(std::move(dynamic_cast<PrefixExpression*>(node.release())->Operator),std::move(left), std::move(right));
+    } else if (typeid(BlockStatement) == item_type) {
+        return evalBlockStatements(std::move(std::unique_ptr<BlockStatement>(dynamic_cast<BlockStatement*>(node.release()))), std::move(env));
+    } else if (typeid(IfExpression) == item_type ) {
+        return evalIfExpression(std::move(std::unique_ptr<IfExpression>(dynamic_cast<IfExpression*>(node.release()))), std::move(env));
+    } else if (typeid(ReturnStatement) == item_type ) {
+        auto val = Eval(std::move(dynamic_cast<ReturnStatement*>(node.release())->return_value), std::move(env));
+        if (isError(std::move(val))) {
+            return val;
+        }
+        return std::make_unique<ReturnValue>(std::move(val));
     }
 
 }
@@ -35,7 +55,31 @@ std::unique_ptr<Object> evalBangOperatorExpression(std::unique_ptr<Object> right
     // 只需要比较一下False and null -> true
     // 其余全部为 false
 }
-std::unique_ptr<Object> evalInfixExpression(std::string Operator, std::unique_ptr<Object> left,std::unique_ptr<Object> right);
+std::unique_ptr<Object> evalInfixExpression(std::string Operator, std::unique_ptr<Object> left,std::unique_ptr<Object> right){
+    auto leftVal = dynamic_cast<Integer*>(left.release())->value;
+    auto rightVal = dynamic_cast<Integer*>(right.release())->value;
+
+    if (Operator == "+") {
+        return std::make_unique<Integer>(leftVal + rightVal);
+    } else if (Operator == "-") {
+        return std::make_unique<Integer>(leftVal - rightVal);
+    } else if (Operator == "*") {
+        return std::make_unique<Integer>(leftVal * rightVal);
+    } else if (Operator == "/") {
+        return std::make_unique<Integer>( leftVal / rightVal);
+
+    } else if (Operator == "<") {
+        return nativeBoolToBooleanObject(leftVal < rightVal);
+    } else if (Operator == ">") {
+        return nativeBoolToBooleanObject(leftVal > rightVal);
+    } else if (Operator == "==") {
+        return nativeBoolToBooleanObject(leftVal == rightVal);
+    } else if (Operator == "!=") {
+        return nativeBoolToBooleanObject(leftVal != rightVal);
+    } else {
+        return newError({"Unknown operator: ",left->Type(), Operator, right->Type()});
+    }
+}
 
 std::unique_ptr<Object> evalMinusPrefixOperatorExpression(std::unique_ptr<Object> right) {
     auto Type_name = right->Type();
